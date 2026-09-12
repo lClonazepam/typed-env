@@ -1,0 +1,10 @@
+{
+  "name": "typed-env",
+  "version": "1.0.0",
+  "description": "Tiny type-safe process.env parser",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "license": "MIT",
+  "keywords": ["env", "config", "validation", "typescript"]
+}
