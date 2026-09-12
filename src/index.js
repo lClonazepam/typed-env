@@ -3,7 +3,7 @@ const FALSY = new Set(['false', '0', 'no', 'off']);
 
 export class EnvError extends Error {
   constructor(issues) {
-    super(`Invalid environment:\n' + issues.map(i => '  - ' + i).join('\n'));
+    super('Invalid environment:\n' + issues.map((i) => '  - ' + i).join('\n'));
     this.name = 'EnvError';
     this.issues = issues;
   }
